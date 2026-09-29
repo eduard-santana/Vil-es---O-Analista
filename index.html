@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head> 
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>O Analista</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+        <style> 
+ .card {
+        height: 100%;
+    }
+
+    .card-img-top {
+        height: 240px;
+        object-fit: cover;
+    }
+
+    .card-body {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card-title {
+        font-size: 1.1rem;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+
+    .card-text {
+        font-size: 1rem;
+        line-height: 1.6;
+    }
+
+</style>
+        </style>
+        </head>
+        <body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+            <div class="container">
+                <a class="navbar-brand fw-bold" href="#"> 🗃️ Arquivos de Vilões </a>
+             <button class="navbar-toggler" type="button" data-bs-toggle="collpse"
+                data-bs-target="#menu">
+                    <!--Icone do menu hamburguer-->
+                    <span class="navbar-toggler-icon"></span>
+             </button>
+             <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#ficha">Ficha técnica </a></li>
+                    <li class="nav-item"><a class="nav-link" href="#poderes">Poderes </a></li>
+                    <li class="nav-item"><a class="nav-link" href="#avistamentos">Ultimos avistamentos</a></li>
+                </ul>
+             </div>
+            </div>
+        </nav>
+        <div class="container py-5">
+            <div class="row align-items-center g-4">
+                <div class="col-md-7">
+                    <span class="badge text-bg-danger mb -2"> Nível de ameaça: Alto </span>
+                    <h1 class="display-4 fw-bold"> O Analista</h1>
+                    <P class="lead"> Ninguém sabe exatamente quando ele deixou de tentar entender a própria mente e começou a destruir a dos outros.
+
+                    Quando aparece, não precisa levantar a voz. Ele observa. Estuda. Espera. Ele percebe pequenas inseguranças que ninguém mais nota e transforma cada uma delas em uma arma.     
+                    </P>  
+                </div>
+                <div class="col-md-5">
+                    <img src="img/O Analista2.png" class="img-fluid rounded" alt="Retrato da Ceifeira">
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="container py-4">
+        <h2 class="h4 mb-3" id="ficha"> Ficha Técnica</h2>
+            <ul class="list-group mb-4">
+                <li class="list-group-item">Nome verdadeiro: Desconhecido</li>
+                <li class="list-group-item">Base de operação: Subestenção abandonada</li>
+                <li class="list-group-item">Status: Foragido </li>
+            </ul>
+            <h2 class="h4 mb-3" id="poderes">Poderes & Fraquezas </h2>
+            <span class="badge text-bg-secondary me2">Análise Psicológica</span>
+            <span class="badge text-bg-secondary me2">Invasão Mental</span>
+            <span class="badge text-bg-secondary me2">Manipulação da Percepção</span>
+            <span class="badge text-bg-danger">Aceitação consciente</span>
+            <span class="badge text-bg-danger">Falta de empatia</span>
+            <span class="badge text-bg-danger">Necessidade de controle</span>
+    </section>
+ <section class="container py-4">
+    <h2 id="avistamentos" class="h4 mb-3">últimos avistamentos</h2>
+    <div class="row row-cols-1 row-cols-md-3 g-3">
+        <div class="col">
+            <div class="card h-100">
+                <img src="Img/Escola_Abandonada.png" class="card-img-top" alt="avistamentos na escola abandonada">
+                <div class="card-title">Escola Abandonada</div>
+                <P class="card-text">Ele ainda não quer ser visto.
+
+                    A primeira aparição acontece em uma escola abandonada, tomada pelo silêncio, pela umidade e pelos corredores vazios. O protagonista percebe uma presença ao longe, parada no fim do corredor.</P>    
+             </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <img src="Img/hospitalpsiab.png" class="card-img-top" alt="avistamentos na escola abandonada">
+                <div class="card-title">Hospital Psiquiátrico Abandonado</div>
+                <P class="card-text">Agora, ele quer que você perceba que está ali.
+
+                Depois da primeira aparição, o protagonista começa a questionar o que viu. No hospital abandonado, porém, a presença deixa de ser apenas uma sombra distante.</P>    
+             </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <img src="Img/casaprotagonista.png" class="card-img-top" alt="avistamentos na escola abandonada">
+                <div class="card-title">Casa do Protagonista</div> 
+                <P class="card-text">Ele finalmente chegou onde deveria estar seguro.
+                A terceira aparição acontece dentro da própria casa do protagonista.
+
+                O lugar que antes representava segurança agora parece estranho. Os cômodos estão silenciosos, os objetos parecem fora do lugar e os espelhos já não refletem apenas aquilo que deveriam.</P>   
+             </div>
+        </div>
+    </div>
+    
+
+ </section>
+   <footer class="text-center py-4 booder-top">
+    <p class="text-bg-secondary mb-0">Projeto criado no curso transforma-se (FRONT-END)</p>
+   </footer>
+   <script snc="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
